@@ -1,0 +1,56 @@
+/* Items.css */
+.about-us-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .about-us-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 80%; /* Adjusted width for better visibility */
+    max-height: 80vh; /* Added maximum height */
+    overflow-y: auto; /* Added scroll for overflow content */
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: black; /* Ensuring visibility */
+    color: white; /* Contrasting text color */
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px; /* Added padding */
+    border-radius: 50%; /* Circular shape */
+  }
+  
+  .about-us-button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about-us-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  
